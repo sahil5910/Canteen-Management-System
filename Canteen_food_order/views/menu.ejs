@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Menu</title>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/menu-styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="Navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Tragopan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link menu-nav-item" href="/">Home<span class="sr-only"></span></a>
+          <a class="nav-item nav-link menu-nav-item" href="#">Contact</a>
+          <a class="nav-item nav-link menu-nav-item" href="cart">Your Cart</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<div class="food items">
+  <ul class="cards">
+
+
+
+<%allItems.forEach(function(food_item){%>
+  <li>
+    <a href="" class="card">
+      <img src=<%=food_item.picture%> class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+            <path />
+          </svg>
+          <img class="card__thumb" src="images/highertaste.png" alt="" />
+          <div class="card__header-text">
+            <h3 class="card__title"><%=food_item.item%></h3>
+            <span class="card__status">Price: Rs. <span class="price"><%=food_item.price%></span></span>
+          </div>
+        </div>
+        <div class="card__description">
+          <form class="" action="/buttonCart" method="post">
+            <button type="submit" class="btn btn-outline-dark" name=<%=food_item.item_id%> id="">Add to cart</button>
+          </form>
+
+
+        </div>
+        <p class="card__description">Ingredients: <%=food_item.ingredients%></p>
+      </div>
+    </a>
+  </li>
+<%});%>
+
+</ul>
+</div>
+
+</body>
+
+</html>

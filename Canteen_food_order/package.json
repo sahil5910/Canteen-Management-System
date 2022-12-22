@@ -1,0 +1,23 @@
+{
+  "name": "canteen-food-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saksham panpaliya",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "jQuery": "^1.7.4",
+    "jsdom": "^20.0.2",
+    "mongoose": "^6.7.2",
+    "node-popup": "^0.1.14",
+    "popups": "^1.1.3"
+  }
+}

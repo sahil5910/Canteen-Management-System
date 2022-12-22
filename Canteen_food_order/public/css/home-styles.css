@@ -1,0 +1,59 @@
+
+body{
+  background-color: #CDFCF6
+}
+
+.nav-item{
+  position: relative;
+  left: 500%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  position: relative;
+  left: 7rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.image{
+  width:70%;
+  position: relative;
+  left: 12rem ;
+  top: 2rem;
+
+}
+
+.head-desc{
+  text-align: center;
+  color: #3F0071;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.higherimg{
+  position: relative;
+  width:50%
+}
+
+.ht-item{
+  text-align: center;
+}
+
+.ht-desc{
+  width: 50%;
+  position: relative;
+  top: 6rem;
+  text-align: left;
+}
+
+.hrule{
+
+  height: 12px;
+  background: black;
+}
+
+.align-success{
+  text-align: center;
+}

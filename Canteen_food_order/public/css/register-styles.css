@@ -1,0 +1,21 @@
+body{
+  background-color: #eee
+}
+
+.nav-item{
+  position: relative;
+  left: 500%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  position: relative;
+  left: 7rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.box-align{
+  text-align: center;
+}
