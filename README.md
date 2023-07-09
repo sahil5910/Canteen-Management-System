@@ -1,17 +1,23 @@
 # Canteen-Management-System
+
 SignUp Interface:
+
 ![Screenshot from 2023-07-09 12-35-34](https://github.com/sahil5910/Canteen-Management-System/assets/109588023/0ba2f164-d5d4-442a-af7e-af02c92ec025)
 
 Login Interface:
+
 ![Screenshot from 2023-07-09 12-35-42](https://github.com/sahil5910/Canteen-Management-System/assets/109588023/97b2b133-774b-4e31-ae34-fc3fcf1d1956)
 
 Ordering Interface:
+
 ![Screenshot from 2023-07-09 12-35-24](https://github.com/sahil5910/Canteen-Management-System/assets/109588023/94be6ebd-76c6-421a-a488-49caad3b0119)
 
 Cart Interface:
+
 ![Screenshot from 2023-07-09 12-35-52](https://github.com/sahil5910/Canteen-Management-System/assets/109588023/7aadb206-2cc8-415b-bf23-f9dc3d6ef906)
 
 DataBase Interface:
+
 ![Screenshot from 2023-07-09 12-36-08](https://github.com/sahil5910/Canteen-Management-System/assets/109588023/e7219385-bca5-4e66-a702-930d3cd76167)
 
 
